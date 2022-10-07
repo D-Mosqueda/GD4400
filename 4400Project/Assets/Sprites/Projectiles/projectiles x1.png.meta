@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -842,11 +842,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       projectiles x1_10: -350934788
-      projectiles x1_19: -715461527
+      projectiles x1_0: -1233990489
       projectiles x1_20: 1475576578
+      projectiles x1_29: -1248215409
       projectiles x1_28: -477961066
       projectiles x1_2: 1173237154
-      projectiles x1_29: -1248215409
       projectiles x1_13: 1223605383
       projectiles x1_24: -1909478901
       projectiles x1_9: -1557789023
@@ -870,9 +870,9 @@ TextureImporter:
       projectiles x1_6: 166043699
       projectiles x1_12: -2063486920
       projectiles x1_27: 1423473533
+      projectiles x1_19: -715461527
       projectiles x1_7: -1761863321
       projectiles x1_18: -1084081586
-      projectiles x1_0: -1233990489
       projectiles x1_23: 905518534
       projectiles x1_1: -352184620
   spritePackingTag: 

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -4979,7 +4979,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tileset x1_63: -2103892053
-      tileset x1_62: -1956904189
       tileset x1_122: 1234400053
       tileset x1_113: -419414689
       tileset x1_112: 1182085607
@@ -5001,12 +5000,12 @@ TextureImporter:
       tileset x1_56: -1831097302
       tileset x1_67: -997918541
       tileset x1_187: -446059251
+      tileset x1_211: 1276872586
       tileset x1_70: -1672197887
       tileset x1_5: -1013938089
       tileset x1_119: -1808353878
       tileset x1_135: 1075300094
       tileset x1_11: -763194046
-      tileset x1_211: 1276872586
       tileset x1_38: -932719566
       tileset x1_83: 677188906
       tileset x1_223: -651756827
@@ -5018,10 +5017,10 @@ TextureImporter:
       tileset x1_106: -716198992
       tileset x1_192: -308791064
       tileset x1_33: 1783018083
-      tileset x1_14: 546060585
-      tileset x1_147: -2068750847
       tileset x1_46: 1710750690
+      tileset x1_14: 546060585
       tileset x1_66: -1648853079
+      tileset x1_147: -2068750847
       tileset x1_64: 918967595
       tileset x1_117: -1410282873
       tileset x1_221: 1291725621
@@ -5207,6 +5206,7 @@ TextureImporter:
       tileset x1_176: 596188164
       tileset x1_80: -1023465488
       tileset x1_17: 370261201
+      tileset x1_62: -1956904189
       tileset x1_41: 317398148
       tileset x1_99: 1972840836
   spritePackingTag: 

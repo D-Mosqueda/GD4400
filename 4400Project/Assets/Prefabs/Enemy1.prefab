@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5913549574059530394}
   - component: {fileID: 5913549574059530395}
   - component: {fileID: 5913549574059530392}
-  - component: {fileID: 1096157441}
-  - component: {fileID: 1096157442}
+  - component: {fileID: 1096157449}
+  - component: {fileID: 7245397231094585238}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -134,7 +134,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15798484, y: 0.18050525}
   m_EdgeRadius: 0
---- !u!114 &1096157441
+--- !u!114 &1096157449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 100
---- !u!114 &1096157442
+--- !u!114 &7245397231094585238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,10 +157,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5913549574059530398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 308260a3657a41a478ae496e99cad589, type: 3}
+  m_Script: {fileID: 11500000, guid: c6c2f8612352ed14592aaf4c864ecdf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
-  minDamage: 0
-  maxDamage: 0
-  projectileForce: 0
+  projectile: {fileID: 4803994775780783374, guid: 3fe3a36eb0dffb24daf8dbff1770a4f2, type: 3}
+  minDamage: 10
+  maxDamage: 20
+  projectileForce: 5
+  player: {fileID: 0}
+  Cooldown: 0

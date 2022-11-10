@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5577683363846148143}
   - component: {fileID: 3020572928494014128}
   m_Layer: 0
-  m_Name: Seer
+  m_Name: WalkerBot
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ Animator:
   m_GameObject: {fileID: 2267227569911415224}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 90b9cb5bf08551e4794a647ba36360e7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5add4163529ea3b4c9cd761347104f9c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -98,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 84654120, guid: 2fdb1e78927d34042a2c97f36733bdec, type: 3}
+  m_Sprite: {fileID: -1980073868, guid: 52c6a78cf24e8644b9e5904be193a33c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -122,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0052054077, y: -0.023848474}
+  m_Offset: {x: 0.00026859343, y: -0.02473411}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -133,7 +133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16982979, y: 0.27230304}
+  m_Size: {x: 0.28086784, y: 0.27053177}
   m_EdgeRadius: 0
 --- !u!114 &5577683363846148143
 MonoBehaviour:
@@ -164,11 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c2f8612352ed14592aaf4c864ecdf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 4803994775780783374, guid: 17fc63c645429e04e84fa64e240d59de, type: 3}
-  minDamage: 1
-  maxDamage: 5
-  projectileForce: 20
-  Cooldown: 0.8
+  projectile: {fileID: 4803994775780783374, guid: 698b1858f63b5c44b837e976ee744303, type: 3}
+  minDamage: 2
+  maxDamage: 4
+  projectileForce: 15
+  Cooldown: 1.5
 --- !u!1 &5577683363078418367
 GameObject:
   m_ObjectHideFlags: 0

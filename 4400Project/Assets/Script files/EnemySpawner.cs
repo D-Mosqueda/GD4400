@@ -15,7 +15,7 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator SpawnTestEnemy()
     {
-        Instantiate(Enemies[0], transform.position, Quaternion.identity);
+        Instantiate(Enemies[Random.Range(0,3)], transform.position, Quaternion.identity);
         yield return new WaitForSeconds(spawnRate);
         StartCoroutine(SpawnTestEnemy());
     }

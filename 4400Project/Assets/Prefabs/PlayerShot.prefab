@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6089664132040115181}
   - component: {fileID: 4404876788231354804}
   m_Layer: 0
-  m_Name: TestAbility
+  m_Name: PlayerShot
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

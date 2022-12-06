@@ -1,2 +1,1 @@
-# GD4400
-Game Design Project
+# what am i doing
